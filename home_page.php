@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,9 +17,8 @@
     </style>
 </head>
 <body>
-    <?php
-     session_start();
-    //  print_r($_SESSION);
+    <?php 
+    session_start();
     ?>
     <h1>welcome to Home page</h1>
     <p><a href="logout.php">logout</a></p>
@@ -32,7 +32,5 @@
             <img src="https://drevio.b-cdn.net/wp-content/uploads/2022/04/7-Lovely-Red-Floral-Gold-Wedding-Invitation-Templates-Two.jpg" alt="">
         </a>
     </div>
-
-  
 </body>
 </html>

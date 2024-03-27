@@ -36,7 +36,6 @@ $dompdf->setPaper("A4", "landscape");
  */
 $html = file_get_contents("template.php");
 
-$html = str_replace(["{{ g_name }}", "{{ g_age }}", "{{ b_name }}", "{{ b_age }}"], [$g_name, $g_age, $b_name, $b_age, ], $html);
 
 $dompdf->loadHtml($html);
 //$dompdf->loadHtmlFile("template.html");
